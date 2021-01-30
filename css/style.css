@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #292930;
+}
+
+.background {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-color: #19a2ae;
+  overflow: hidden;
+}
+
+.circle-bg {
+  position: absolute;
+  z-index: -1;
+}
+
+.circle-bg img {
+  width: 800px;
+  height: auto;
+}
+
+.top-circle {
+  position: absolute;
+  top: -800px;
+  left: -400px;
+}
+
+.bottom-circle {
+  position: absolute;
+  bottom: -800px;
+  right: -200px;
+}
+
+.container {
+  position: relative;
+  background-color: white;
+  width: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: 1 2 20 1 #888888;
+          box-shadow: 1 2 20 1 #888888;
+}
+
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.circle {
+  border: 5px solid white;
+  position: absolute;
+  top: 95px;
+  left: 35%;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: url(/images/image-victor.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header {
+  height: 150px;
+  border-radius: 8px 8px 0 0;
+  background: url(/images/bg-pattern-card.svg);
+  background-size: cover;
+}
+
+.midle {
+  height: 150px;
+  border-bottom: 1px solid #cfcfcf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 0rem;
+  padding: 50px 20px 10px 20px;
+}
+
+.name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
+}
+
+.footer {
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 0px;
+  padding: 10px;
+}
+
+.number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #2d3248;
+  font-weight: bold;
+}
+
+.legend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+h1 p {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.midle p {
+  font-weight: 400;
+  color: #969696;
+}
+
+.number p {
+  font-size: 1.5rem;
+}
+
+.legend p {
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #969696;
+}
+/*# sourceMappingURL=style.css.map */

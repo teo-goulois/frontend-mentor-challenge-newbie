@@ -1,0 +1,150 @@
+* {
+    //margin: 0rem;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #292930;
+}
+
+.background {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+
+}
+
+.circle-bg {
+    position: absolute;
+    z-index: -1; 
+
+}
+
+.circle-bg img {
+    width: 800px;
+    height: auto;
+}
+
+.top-circle {
+    
+    position: absolute;
+    top: -800px;
+    left: -400px;
+}
+.bottom-circle {
+    position: absolute;
+    bottom: -800px;
+    right: -200px;
+}
+
+.container {
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    //text-align: center;
+    box-shadow: 1 2 20 1 #888888;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    
+}
+
+
+
+
+.circle {
+    border: 5px solid white;
+    position: absolute;
+    top: 95px;
+    left: 35%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: url(/images/image-victor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+.header {
+    height: 150px;
+    border-radius: 8px 8px 0 0;
+    background: url(/images/bg-pattern-card.svg);
+    background-size: cover;
+}
+.midle {
+    height: 150px;
+    border-bottom: 1px solid  hsl(0, 0%, 81%); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0rem;
+    padding: 50px 20px 10px 20px;
+
+}
+
+.name {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    
+} 
+
+.footer {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+    padding: 10px;
+}
+
+.number {
+    display: flex;
+    justify-content: space-evenly;
+    color: hsl(229, 23%, 23%);
+    font-weight: bold;
+}
+
+.legend {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 p {
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.midle p {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.number p {
+    font-size: 1.5rem;
+}
+
+.legend p {
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
